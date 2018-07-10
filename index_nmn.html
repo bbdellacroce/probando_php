@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Libreria</title>
+	</head>
+	<body>
+		<!--CUENTA FILAS -->
+
+		<h1>Buscar por cantidad </h1>
+		
+		<form action="contar_pr.php" method="get">
+			Cod.:
+			<input type="text" name="termino">
+			<br>
+			
+			<input type="submit" name="Buscar">
+		</form>
+
+
+		<div>
+		<!--TARE RESULTADO DE LISTAS -->
+
+		<h1>Traer detalle </h1>
+		
+		<form action="buscar_pr.php" method="get">
+			Cod.:
+			<input type="text" name="termino">
+			<br>
+			
+			<input type="submit" name="Buscar">
+		</form>
+
+
+		<div>
+
+	<!-- FORMULARIO -->
+			
+				
+					<div class="suscribite"><h2>carga>></h2>				
+
+            	<form method="POST" action="registro2_pr.php">
+    					Mail 
+    				<input type="text" name="nombre" placeholder="nombre" required>
+    				<input type="text" name="apellido" placeholder="apellido" required>
+    				<input type="text" name="mail" placeholder="mail" required>
+    				<input type="text" name="edad" placeholder="edad" required>
+    				<input type="text" name="ocupacion" placeholder="ocupacion" required>
+    				<!--boton-->
+						<br><input id="btn" type="submit" value="Suscribirme">
+			
+				</form><!--Fin del formulario -->
+			
+	<!--SUSCRIBITE-->
+				</div>
+	</body>
+</html>
